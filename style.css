@@ -1,0 +1,83 @@
+.door{
+    width: 80%;
+    margin: 100px auto ;
+    /* background: green; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.door .button{
+    width:500px ;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.door .button button:last-of-type{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: red;
+    display: none;
+    transition: .5s;
+    
+}
+.door .button button:first-of-type{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: green;
+    transition: .5s;
+}
+
+.door .images{
+    width: 300px;
+    overflow: hidden;
+}
+.door .images img:first-of-type{
+
+    width: 300px;
+}
+.door .images img:last-of-type{
+    width: 300px;
+    display: none;
+    
+}
+.coint{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 200px ;
+    color: rgb(248, 5, 5);
+}
+
+.coint button{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+    color: orangered;
+}
+#colors{
+    width: 90%;
+    margin: 100px auto ;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: self-start;
+    border: 2px solid  black;
+}
+#colors button{
+    width: 200px;
+    padding: 20px 0;
+    border-radius: 20px;
+    background:rgb(145, 8, 209) ;
+}
+
+
